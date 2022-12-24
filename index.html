@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Html, CSS">
@@ -12,7 +13,7 @@
   <div  class="page">
   <header class="header">
     <div class="logo logo_place_header"></div>
-    <h1 class="header__title">Начать учиться</h1>
+    <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a href="#" target="_blank" class="header__link">Узнать &rarr;</a>
     </p>
@@ -23,7 +24,7 @@
   <main class="content">
     <section class="description">
       <div class="two-columns">
-        <h3 class="two-columns__brief">Главные проблемы в обучении</h3>
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
             Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, 
@@ -138,29 +139,28 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <div class="logo logo_place_footer"></div>
+        <div class="logo logo_place_footer" alt="Я.Практикум"></div>
         <p class="footer__author">&copy; Сергей Коротков</p>
       </div>
-      <div class="footer__column footer__column_content-info">
+      <nav class="footer__column footer__column_content-info">
         <h3 class="footer__column-heading">О Практикуме</h3>
         <ul class="footer__column-links">
-          <li> <a href="https://praktikum.yandex.ru/" class="footer__link">Главная</a></li>
-          <li> <a href="https://yandex.ru/support/praktikum/" class="footer__link">Концепция</a></li>
-          <li> <a href="https://yandex.ru/support/praktikum/mentors.html" class="footer__link">Наставники</a></li>
+          <li> <a href="https://praktikum.yandex.ru/" class="footer__column-link">Главная</a></li>
+          <li> <a href="https://yandex.ru/support/praktikum/" class="footer__column-link">Концепция</a></li>
+          <li> <a href="https://yandex.ru/support/praktikum/mentors.html" class="footer__column-link">Наставники</a></li>
         </ul>
-      </div>
-        <div class="footer__column footer__column_content-social">
+      </nav>
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li><a href="http://www.youtube.com" class="footer__link" target="_blank"><img class="footer__social-icons"
+            <li><a href="http://www.youtube.com" class="footer__column-link" target="_blank"><img class="footer__social-icon"
               src="images/youtube-icon.svg" alt="Ютуб">YouTube</a></li>
-            <li><a href="http://www.vk.com" class="footer__link" target="_blank"><img class="footer__social-icons" 
-              src="images/vk_color_white.svg" alt="ВК">
-              ВКонтакте</a></li>
-            <li><a href="http://www.tiktok.com" class="footer__link" target="_blank"><img class="footer__social-icons"
+            <li><a href="http://www.vk.com" class="footer__column-link" target="_blank"><img class="footer__social-icon" 
+              src="images/vk_color_white.svg" alt="ВК">ВКонтакте</a></li>
+            <li><a href="http://www.tiktok.com" class="footer__column-link" target="_blank"><img class="footer__social-icon"
               src="images/tiktok-icon.svg" alt="ТикТок">TikTok</a></li>
           </ul>
-        </div>
+        </nav>
     </div>
   </footer>
 </div>
