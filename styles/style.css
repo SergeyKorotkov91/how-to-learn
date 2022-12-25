@@ -57,7 +57,8 @@
 }
 
 .header__title {
-  width: 730px;
+  display: flex;
+  max-width: 730px;
   margin-left: 64px;
   justify-content: flex-start;
   margin-top: auto;
@@ -69,8 +70,8 @@
 }
 
 .header__subtitle {
-
-  width: 388px;
+  margin: 0;
+  max-width: 388px;
   position: absolute;
   bottom: 30px;
   left: 64px;
