@@ -6,3 +6,8 @@
     font-size: 18px;
     opacity: 1;
   }
+
+  .footer__column-link:hover {
+    opacity: 50%;
+    transition: ease-in 0.15s;
+  }
